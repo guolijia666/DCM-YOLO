@@ -59,11 +59,11 @@ data
 ### Training
 
 ```bash
-bash tools/dist_train.sh configs/yolox/yolox_s_100e_duo.py 2
+bash tools/dist_train.sh configs/yolov8/unitmodule_yolov8_s_100e_duo.py 1
 ```
 
 ### Test
 
 ```bash
-bash tools/dist_test.sh configs/yolox/yolox_s_100e_duo.py yolox_s_100e_duo.pth 2
+bash tools/dist_test.sh configs/yolov8/unitmodule_yolov8_s_100e_duo.py unitmodule_yolov8_s_100e_duo.pth 1
 ```
