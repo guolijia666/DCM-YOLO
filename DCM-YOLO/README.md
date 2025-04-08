@@ -32,7 +32,7 @@ conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit
 
 ```bash
 pip install -U openmim
-mim install mmengine==0.7.4
+mim install mmengine==0.10.4
 mim install mmcv==2.0.0
 mim install mmdet==3.0.0
 mim install mmyolo==0.5.0
