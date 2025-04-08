@@ -223,7 +223,6 @@ class YOLOV8CSPDarknet(BaseBackbone):
         from custom_modules import GroupDCNv4
         conv_layer = GroupDCNv4(
             channels=in_channels,
-            # stride=2,   #去掉SPD加
             drop_rate=0.2,
             norm_cfg=dict(type='GN', num_groups=1, requires_grad=True),
             act_cfg=dict(type="ReLU")
